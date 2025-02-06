@@ -10,12 +10,8 @@ function TodoList() {
         setTodos(newTodos);
     };
     const removeTodo = (id) => {
-        setTodos(
-            todos.map(todo =>
-                todo.id === id ? {...todo, completed: !todo.completed} : todo
-            )
-        );
-    };
+        setTodos(todos.filter(todo => todo.id !== id));
+      };
 
     const toggleComplete = (id) => {
         setTodos(todo =>
