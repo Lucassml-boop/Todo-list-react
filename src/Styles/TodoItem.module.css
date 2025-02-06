@@ -1,0 +1,28 @@
+.item{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f4f4f4;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+}
+
+.completed{
+    text-decoration: line-through;
+    color: gray;
+}
+
+.button{
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+
+.button:hover{
+    background: darkred;
+}

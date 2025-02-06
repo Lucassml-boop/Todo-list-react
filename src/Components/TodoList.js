@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import TodoItem from "./TodoItem";
 import TodoForm from "./TodoForm";
 
+import styles from "../Styles/TodoList.module.css"
+
 function TodoList() {
     const [todos, setTodos] = useState([]);
 
@@ -22,8 +24,8 @@ function TodoList() {
     }
 
     return (
-        <div>
-            <h1>Lista de Tarefas</h1>
+        <div className={styles.container}>
+            <h1 className={styles.title}>Lista de Tarefas</h1>
             <TodoForm addTodo={addTodo} />
             <ul>
                 {todos.map(todo => (
