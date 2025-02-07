@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+📋 Todo List - React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto simples de To-Do List criado com React, ideal para aprendizado de conceitos como componentes, estado (useState), eventos e manipulação da interface do usuário.
 
-## Available Scripts
+🚀 Tecnologias Utilizadas
 
-In the project directory, you can run:
+React
 
-### `yarn start`
+Vite (para inicialização rápida do projeto)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+JavaScript (ES6+)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+CSS (para estilização básica)
 
-### `yarn test`
+📂 Estrutura do Projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+my-todo-app/
+├── src/
+│   ├── components/
+│   │   ├── TaskInput.jsx  # Componente de entrada de nova tarefa
+│   │   ├── TaskList.jsx   # Componente para listar tarefas
+│   │   ├── TaskItem.jsx   # Componente para cada tarefa individual
+│   ├── App.jsx            # Componente principal
+│   ├── main.jsx           # Ponto de entrada do React
+├── public/
+├── package.json           # Configurações do projeto e dependências
+└── README.md              # Documentação do projeto
 
-### `yarn build`
+🛠️ Instalação e Execução
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1️⃣ Clone este repositório
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+git clone https://github.com/Lucassml-boop/Todo-list-react.git
+cd Todo-list-react
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2️⃣ Instale as dependências
 
-### `yarn eject`
+npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3️⃣ Inicie o servidor de desenvolvimento
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm run dev
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Abra o navegador e acesse http://localhost:5173 para ver o projeto em execução.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🏗️ Componentização
 
-## Learn More
+O projeto é dividido em três componentes principais:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🔹 TaskInput.jsx
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Componente responsável por capturar e adicionar novas tarefas.
 
-### Code Splitting
+🔹 TaskList.jsx
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Renderiza a lista de tarefas e repassa cada uma delas para TaskItem.
 
-### Analyzing the Bundle Size
+🔹 TaskItem.jsx
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Componente individual para cada tarefa, com opção de remoção ao clicar.
 
-### Making a Progressive Web App
+📌 Funcionalidades
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+✅ Adicionar tarefas✅ Listar tarefas✅ Remover tarefas ao clicar✅ Estado gerenciado com useState
