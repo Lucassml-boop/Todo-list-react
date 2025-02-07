@@ -13,16 +13,26 @@
     color: gray;
 }
 
-.button{
-    background: red;
+.button_green{
     color: white;
     border: none;
     padding: 5px 10px;
     cursor: pointer;
     border-radius: 5px;
-    opacity: 0.9;
 }
 
-.button:hover{
+.button_red{
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button_red:hover{
     background: darkred;
+}
+
+.button_green:hover{
+    background: darkgreen;
 }
