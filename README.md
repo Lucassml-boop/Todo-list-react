@@ -38,7 +38,6 @@ git clone https://github.com/Lucassml-boop/Todo-list-react.git
 cd Todo-list-react
 
 2️⃣ Instale as dependências
->>>>>>> 53789d156eab6936695cd6777ff734f0e34d0e61
 npm install
 
 ### 3️⃣ Inicie o servidor de desenvolvimento
@@ -77,9 +76,8 @@ Componente individual para cada tarefa, com opção de remoção ao clicar.
 - [ ] Adicionar status de "concluído"  
 - [ ] Persistir tarefas no localStorage  
 - [ ] Melhorar o design com estilização mais avançada  
-
----
 =======
+
 ✅ Adicionar tarefas
 ✅ Listar tarefas
 ✅ Remover tarefas ao clicar
