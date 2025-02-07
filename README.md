@@ -1,19 +1,16 @@
-📋 Todo List - React
+# 📋 Todo List - React
 
-Este é um projeto simples de To-Do List criado com React, ideal para aprendizado de conceitos como componentes, estado (useState), eventos e manipulação da interface do usuário.
+Este é um projeto simples de **To-Do List** criado com **React**, ideal para aprendizado de conceitos como componentes, estado (useState), eventos e manipulação da interface do usuário.
 
-🚀 Tecnologias Utilizadas
+## 🚀 Tecnologias Utilizadas
 
-React
+- React
+- JavaScript (ES6+)
+- CSS (para estilização básica)
 
-Vite (para inicialização rápida do projeto)
+## 📂 Estrutura do Projeto
 
-JavaScript (ES6+)
-
-CSS (para estilização básica)
-
-📂 Estrutura do Projeto
-
+```plaintext
 my-todo-app/
 ├── src/
 │   ├── components/
@@ -25,40 +22,42 @@ my-todo-app/
 ├── public/
 ├── package.json           # Configurações do projeto e dependências
 └── README.md              # Documentação do projeto
-
 🛠️ Instalação e Execução
-
 1️⃣ Clone este repositório
 
 git clone https://github.com/Lucassml-boop/Todo-list-react.git
 cd Todo-list-react
-
 2️⃣ Instale as dependências
 
+Copiar
+Editar
 npm install
-
 3️⃣ Inicie o servidor de desenvolvimento
 
+Copiar
+Editar
 npm run dev
-
 Abra o navegador e acesse http://localhost:5173 para ver o projeto em execução.
 
 🏗️ Componentização
-
 O projeto é dividido em três componentes principais:
 
 🔹 TaskInput.jsx
-
 Componente responsável por capturar e adicionar novas tarefas.
 
 🔹 TaskList.jsx
-
 Renderiza a lista de tarefas e repassa cada uma delas para TaskItem.
 
 🔹 TaskItem.jsx
-
 Componente individual para cada tarefa, com opção de remoção ao clicar.
 
 📌 Funcionalidades
+✅ Adicionar tarefas
+✅ Listar tarefas
+✅ Remover tarefas ao clicar
+✅ Estado gerenciado com useState
 
-✅ Adicionar tarefas✅ Listar tarefas✅ Remover tarefas ao clicar✅ Estado gerenciado com useState
+📌 Melhorias Futuras
+ Adicionar status de "concluído"
+ Persistir tarefas no localStorage
+ Melhorar o design com estilização mais avançada
