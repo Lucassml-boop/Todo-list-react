@@ -6,10 +6,37 @@
     border-radius: 10px;
     box-shadow: 04px 6px rgba(0,0,0,0.1);
     text-align: center;
+    color:#333;
 }
 
-.title{
+.dark{
+    background: #333;
+    color: #fff;
+}
+
+.themeButton{
+    background: none;
+    border: 1px solid #ccc;
+    padding: 8px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.themeButton:hover{
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.title, .text{
     font-size:24px;
     color: #333
 }
 
+.title_dark, .text_dark{
+    color: white;
+}
+
+Input{
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+}
