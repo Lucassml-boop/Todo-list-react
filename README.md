@@ -14,11 +14,11 @@ Este é um projeto simples de **To-Do List** criado com **React**, ideal para ap
 my-todo-app/
 ├── src/
 │   ├── components/
-│   │   ├── TaskInput.jsx  # Componente de entrada de nova tarefa
-│   │   ├── TaskList.jsx   # Componente para listar tarefas
-│   │   ├── TaskItem.jsx   # Componente para cada tarefa individual
-│   ├── App.jsx            # Componente principal
-│   ├── main.jsx           # Ponto de entrada do React
+│   │   ├── TaskInput.js  # Componente de entrada de nova tarefa
+│   │   ├── TaskList.js   # Componente para listar tarefas
+│   │   ├── TaskItem.js   # Componente para cada tarefa individual
+│   ├── App.js            # Componente principal
+│   ├── main.js           # Ponto de entrada do React
 ├── public/
 ├── package.json           # Configurações do projeto e dependências
 └── README.md              # Documentação do projeto
@@ -56,15 +56,15 @@ Abra o navegador e acesse `http://localhost:5173` para ver o projeto em execuç�
 >>>>>>> 53789d156eab6936695cd6777ff734f0e34d0e61
 O projeto é dividido em três componentes principais:
 
-### 🔹 TaskInput.jsx
+### 🔹 TaskInput.js
 
 Componente responsável por capturar e adicionar novas tarefas.
 
-### 🔹 TaskList.jsx
+### 🔹 TaskList.js
 
 Renderiza a lista de tarefas e repassa cada uma delas para TaskItem.
 
-### 🔹 TaskItem.jsx
+### 🔹 TaskItem.js
 
 Componente individual para cada tarefa, com opção de remoção ao clicar.
 
