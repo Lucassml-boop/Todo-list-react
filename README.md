@@ -10,7 +10,7 @@ Este é um projeto simples de **To-Do List** criado com **React**, ideal para ap
 - CSS (para estilização básica)
 
 ## 📂 Estrutura do Projeto
-
+```
 my-todo-app/
 ├── src/
 │   ├── components/
@@ -22,9 +22,8 @@ my-todo-app/
 ├── public/
 ├── package.json           # Configurações do projeto e dependências
 └── README.md              # Documentação do projeto
-
+```
 ## 🛠️ Instalação e Execução
-<<<<<<< HEAD
 
 ### 1️⃣ Clone este repositório
 
@@ -50,10 +49,8 @@ Abra o navegador e acesse `http://localhost:5173` para ver o projeto em execuç�
 
 ## 🏗️ Componentização
 
-<<<<<<< HEAD
 =======
 ## 🏗️ Componentização
->>>>>>> 53789d156eab6936695cd6777ff734f0e34d0e61
 O projeto é dividido em três componentes principais:
 
 ### 🔹 TaskInput.js
@@ -69,7 +66,6 @@ Renderiza a lista de tarefas e repassa cada uma delas para TaskItem.
 Componente individual para cada tarefa, com opção de remoção ao clicar.
 
 ## 📌 Funcionalidades
-<<<<<<< HEAD
 
 ✅ Adicionar tarefas  
 ✅ Listar tarefas  
@@ -93,4 +89,4 @@ Componente individual para cada tarefa, com opção de remoção ao clicar.
  Adicionar status de "concluído"
  Persistir tarefas no localStorage
  Melhorar o design com estilização mais avançada
->>>>>>> 53789d156eab6936695cd6777ff734f0e34d0e61
+
