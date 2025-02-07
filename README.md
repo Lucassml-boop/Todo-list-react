@@ -24,6 +24,7 @@ my-todo-app/
 └── README.md              # Documentação do projeto
 
 ## 🛠️ Instalação e Execução
+<<<<<<< HEAD
 
 ### 1️⃣ Clone este repositório
 
@@ -32,6 +33,13 @@ cd Todo-list-react
 
 ### 2️⃣ Instale as dependências
 
+=======
+1️⃣ Clone este repositório
+git clone https://github.com/Lucassml-boop/Todo-list-react.git
+cd Todo-list-react
+
+2️⃣ Instale as dependências
+>>>>>>> 53789d156eab6936695cd6777ff734f0e34d0e61
 npm install
 
 ### 3️⃣ Inicie o servidor de desenvolvimento
@@ -42,6 +50,10 @@ Abra o navegador e acesse `http://localhost:5173` para ver o projeto em execuç�
 
 ## 🏗️ Componentização
 
+<<<<<<< HEAD
+=======
+## 🏗️ Componentização
+>>>>>>> 53789d156eab6936695cd6777ff734f0e34d0e61
 O projeto é dividido em três componentes principais:
 
 ### 🔹 TaskInput.jsx
@@ -57,6 +69,7 @@ Renderiza a lista de tarefas e repassa cada uma delas para TaskItem.
 Componente individual para cada tarefa, com opção de remoção ao clicar.
 
 ## 📌 Funcionalidades
+<<<<<<< HEAD
 
 ✅ Adicionar tarefas  
 ✅ Listar tarefas  
@@ -70,3 +83,14 @@ Componente individual para cada tarefa, com opção de remoção ao clicar.
 - [ ] Melhorar o design com estilização mais avançada  
 
 ---
+=======
+✅ Adicionar tarefas
+✅ Listar tarefas
+✅ Remover tarefas ao clicar
+✅ Estado gerenciado com useState
+
+## 📌 Melhorias Futuras
+ Adicionar status de "concluído"
+ Persistir tarefas no localStorage
+ Melhorar o design com estilização mais avançada
+>>>>>>> 53789d156eab6936695cd6777ff734f0e34d0e61
