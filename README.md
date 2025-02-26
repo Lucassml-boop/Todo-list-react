@@ -75,7 +75,8 @@ Componente individual para cada tarefa, com opção de remoção ao clicar.
 
 - [ ] Adicionar status de "concluído"  
 - [ ] Persistir tarefas no localStorage  
-- [ ] Melhorar o design com estilização mais avançada  
+- [ ] Melhorar o design com estilização mais avançada
+  
 =======
 
 ✅ Adicionar tarefas
